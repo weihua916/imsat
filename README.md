@@ -15,4 +15,5 @@ For reproducing the experiments on MNIST datasets in [1], run the following code
 
 ## Reference ##
 [1] Weihua Hu, Takeru Miyato, Seiya Tokui, Eiichi Matsumoto and Masashi Sugiyama. Learning Discrete Representations via Information Maximizing Self Augmented Training.
+
 [2] Takeru Miyato, Shin-ichi Maeda, Masanori Koyama, Ken Nakae, and Shin Ishii. Distributional smoothing with virtual adversarial training. In ICLR, 2016.
