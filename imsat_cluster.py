@@ -86,7 +86,6 @@ def vat(forward, distance, x, eps_list, xi=10, Ip=1):
 class Encoder(chainer.Chain):
     def __init__(self):
         super(Encoder, self).__init__(
-            # l1 = F.Linear(2000, 4, wscale=0.01),
             l1=F.Linear(dim, hidden_list[0], wscale=0.1),
             l2=F.Linear(hidden_list[0], hidden_list[1], wscale=0.1),
             l3=F.Linear(hidden_list[1], n_class, wscale=0.0001),
@@ -147,7 +146,6 @@ enc.to_gpu()
 o_enc = optimizers.Adam(alpha=0.002, beta1=0.9)
 o_enc.setup(enc)
 
-batchsize_l = 100
 batchsize_ul = 250
 
 n_epoch = 50
