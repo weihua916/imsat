@@ -11,9 +11,9 @@ For reproducing the experiments on MNIST datasets in [1], run the following code
 - Clustering with MNIST: ``` python imsat_cluster.py ```
 - Hash learning with MNIST: ``` python imsat_hash.py ```
 
-`calculate_distance.py` is be used to calculate the perturbation range for Virtual Adversarial Training [2]. For MNIST dataset, we have already calculated the range.
+`calculate_distance.py` can be used to calculate the perturbation range for Virtual Adversarial Training [2]. For MNIST dataset, we have already calculated the range.
 
 ## Reference ##
-[1] Weihua Hu, Takeru Miyato, Seiya Tokui, Eiichi Matsumoto and Masashi Sugiyama. Learning Discrete Representations via Information Maximizing Self Augmented Training.
+[1] Weihua Hu, Takeru Miyato, Seiya Tokui, Eiichi Matsumoto and Masashi Sugiyama. Learning Discrete Representations via Information Maximizing Self Augmented Training. Available at http://arxiv.org/abs/1702.08720
 
 [2] Takeru Miyato, Shin-ichi Maeda, Masanori Koyama, Ken Nakae, and Shin Ishii. Distributional smoothing with virtual adversarial training. In ICLR, 2016.
