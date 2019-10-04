@@ -13,6 +13,9 @@ For reproducing the experiments on MNIST datasets in [1], run the following code
 
 `calculate_distance.py` can be used to calculate the perturbation range for Virtual Adversarial Training [2]. For MNIST dataset, we have already calculated the range.
 
+## Datasets
+All the datasets used in the paper can be downloaded [here](https://www.dropbox.com/s/ewwvbu1d0drh9wu/all_dataset.zip?dl=0).
+
 ## Reference ##
 [1] Weihua Hu, Takeru Miyato, Seiya Tokui, Eiichi Matsumoto and Masashi Sugiyama. Learning Discrete Representations via Information Maximizing Self-Augmented Training. In ICML, 2017. Available at http://arxiv.org/abs/1702.08720
 
